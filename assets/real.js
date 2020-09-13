@@ -15,12 +15,12 @@ $(document).ready(function () {
 	let currentHour = moment().format('h');
 	console.log(currentHour);
 
-	//looping m24 hour clock
+	//looping m24 hour clock logged on console
 	if (currentHour < 10) {
 		console.log(currentHour + ' is less than!');
 	}
 
-	currentDateText.text(moment().format('MMM ddd do YYYY'));
+	currentDateText.text(moment().format('ddd MMM do YYYY'));
 
 	var initialToDoStorage = {
 		'9am': '',

@@ -10,5 +10,6 @@ I used the array pulled from storage to dynamically generate the users content i
 
 Lots of dissecting other's code with different attack approaches with the time and saving the users input and displaying.
 The Office hours prior to and after class were quite helpful this week as there were a couple questions pertaining to this project.
+I found that working in the sandbox has been a little more effiecient I can have two files one outside of the the project currently working, I have been having the same file instance happening because i had 2 VScodes editing the same file. I am slowly learning the little things.
 
 ### =============================================================
