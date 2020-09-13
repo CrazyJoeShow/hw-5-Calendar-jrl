@@ -1,5 +1,21 @@
 console.log('henlo frins!');
 $(document).ready(function () {
+	//Golbals
+	var currentDateText = $('#current-day');
+	console.log(currentDateText);
+
+	var mainContainer = $('.main');
+	console.log(mainContainer);
+
+	let m = moment();
+	console.log(m.hour());
+	let currentHour = moment().format('h');
+	console.log(currentHour);
+	//24 hour clock
+	if (currentHour < 10) {
+		console.log(currentHour + 'is less than');
+	}
+
 	// Object for divs
 	var initialToDoStorage = {
 		'9am': '',
