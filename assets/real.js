@@ -73,5 +73,10 @@ $(document).ready(function () {
 		hourContainer.addClass('col-2 hour');
 		hourContainer.text(hourList[i]);
 		timeRow.append(hourContainer);
+
+		// forms for user input
+		var formContainer = $('<div>');
+		hourContainer.addClass('text-area col-8');
+		formContainer.attr('placeholder', 'This hour is open' + hourList[i]);
 	}
 });
