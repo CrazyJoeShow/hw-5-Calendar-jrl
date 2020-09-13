@@ -15,6 +15,7 @@ $(document).ready(function () {
 	if (currentHour < 10) {
 		console.log(currentHour + 'is less than');
 	}
+	currentDateText.text(moment().format('MMM ddd YYYY'));
 
 	// Object for divs
 	var initialToDoStorage = {
