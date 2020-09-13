@@ -13,3 +13,7 @@ The Office hours prior to and after class were quite helpful this week as there 
 I found that working in the sandbox has been a little more effiecient I can have two files one outside of the the project currently working, I have been having the same file instance happening because i had 2 VScodes editing the same file. I am slowly learning the little things.
 
 ### =============================================================
+
+Brad Traversy on Youtube had some great tutorials and a different angle on jQuery which has helped me through the past week with jQuery, and specifically but not related ajax.
+
+### =============================================================
