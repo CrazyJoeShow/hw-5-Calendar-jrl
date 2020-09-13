@@ -78,5 +78,15 @@ $(document).ready(function () {
 		var formContainer = $('<div>');
 		hourContainer.addClass('text-area col-8');
 		formContainer.attr('placeholder', 'This hour is open' + hourList[i]);
+
+		if (currentHour < momentHours[i]) {
+			formContainer.addClass('future');
+		} else if (currentHour > momentHours[i]) {
+			formContainer.addClass('past');
+		} else formContainer.addClass('present');
+
+		formContainer.attr('id', [i]);
+		formContainer.text(initialStorage[hourList[i]]);
+		timeRow.append(formContainer);
 	}
 });
