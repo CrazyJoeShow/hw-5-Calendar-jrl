@@ -51,5 +51,10 @@ $(document).ready(function () {
 		timeRow.addClass('row time-block');
 		mainContainer.append(timeRow);
 		//that should add rows for time blocks
+
+		var hourContainer = $('<div>');
+		hourContainer.addClass('col-2 hour');
+		hourContainer.text(hourList[i]);
+		timeRow.append(hourContainer);
 	}
 });
